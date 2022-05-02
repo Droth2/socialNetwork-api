@@ -8,7 +8,6 @@ const {
     userNewFriend,
     userDeleteFriend
 } = require('../../controllers/user-controller');
-const { post } = require('../../models/Reaction');
 
 router
     .route('/')
@@ -27,3 +26,6 @@ router
     .delete(userDeleteFriend);
 
 module.exports = router;
+
+// 6266bbe96ed439a8063466d6 - Dillon
+// 6266bc4e6ed439a8063466d9 - Jeff
